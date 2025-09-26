@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
-    ignoreDuringBuilds: true,   // ⬅️ turn build-time lint errors into warnings
+    ignoreDuringBuilds: true,
   },
 };
 

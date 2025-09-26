@@ -48,8 +48,9 @@ export default function AdminConfig() {
     ));
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white shadow rounded space-y-6">
-      <h1 className="text-xl font-semibold">Admin Config</h1>
+    <div className="max-w-md mx-auto p-6 bg-white shadow rounded space-y-6
+                  text-gray-800">
+      <h1 className="text-2xl font-semibold">Admin Config</h1>
       <div>
         <h2 className="font-medium mb-2">Step 2 components</h2>
         <div className="space-y-1">{renderChecks(step2, 2)}</div>
